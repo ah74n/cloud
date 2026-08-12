@@ -39,11 +39,8 @@ In the **Basics** tab, I configured the core details for the instance:
 ### Step 3: Setting Up Administrator Account
 Configured the admin credentials to securely access the `m1` VM later. 
 * *Note: If using Linux, this involves setting up an SSH public key or a Password. If Windows, setting up a Username and Password.*
+<img width="1127" height="766" alt="image" src="https://github.com/user-attachments/assets/cdacc5b3-ac74-4300-a693-4007184d53e2" />
 
-> **[Screenshot 3 Placeholder]** 
-> *(Add your screenshot showing the Administrator account setup section)*
-> `<img width="1127" height="766" alt="image" src="https://github.com/user-attachments/assets/cdacc5b3-ac74-4300-a693-4007184d53e2" />
-`
 
 ### Step 4: Configuring Inbound Port Rules
 To ensure the VM is accessible over the internet for our DevOps tasks, I allowed selected inbound ports (e.g., Port `22` for SSH on Linux, or Port `3389` for RDP on Windows, along with Port `80/443` for web traffic if needed).
