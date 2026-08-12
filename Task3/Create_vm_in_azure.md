@@ -19,9 +19,6 @@ In this task, we moved from account setup to actual Infrastructure as a Service 
 ### Step 1: Navigating to Virtual Machines
 From the Azure Portal dashboard, searched for "Virtual Machines" in the top search bar and clicked on **Create > Azure virtual machine**.
 
-> **[Screenshot 1 Placeholder]** 
-> *(Add your screenshot showing the 'Create Virtual Machine' screen)*
-> `![Create VM Screen](link_to_image)`
 
 ### Step 2: Configuring the Basics
 In the **Basics** tab, I configured the core details for the instance:
@@ -31,10 +28,7 @@ In the **Basics** tab, I configured the core details for the instance:
 * **Image:** Selected the Operating System (e.g., Ubuntu Server or Windows Server).
 * **Size:** Chosen a Free-Tier eligible size (like `Standard_B1s`).
 
-> **[Screenshot 2 Placeholder]** 
-> *(Add your screenshot showing the Basics tab with 'm1' filled in the name field)*
-> `<img width="1406" height="749" alt="image" src="https://github.com/user-attachments/assets/68b6fa88-ee93-4102-8453-6ad0a26d7692" />
-`
+<img width="1406" height="749" alt="image" src="https://github.com/user-attachments/assets/68b6fa88-ee93-4102-8453-6ad0a26d7692" />
 
 ### Step 3: Setting Up Administrator Account
 Configured the admin credentials to securely access the `m1` VM later. 
@@ -51,10 +45,8 @@ Clicked on **Review + create**. Azure ran a final validation check. Once validat
 ### Step 6: Deployment Success
 Waited a few minutes for Azure to allocate the compute, network, and storage resources. Once finished, Azure displayed the "Your deployment is complete" screen. I then clicked **Go to resource** to view the `m1` overview page.
 
-> **[Screenshot 6 Placeholder]** 
-> *(Add your screenshot showing the "Your deployment is complete" message or the final VM overview page showing its Public IP)*
-> `<img width="1633" height="824" alt="image" src="https://github.com/user-attachments/assets/ac43d0c6-31cd-4372-9528-cfcdd293d8ce" />
-`
+<img width="1633" height="824" alt="image" src="https://github.com/user-attachments/assets/ac43d0c6-31cd-4372-9528-cfcdd293d8ce" />
+
 
 ---
 
